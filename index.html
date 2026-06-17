@@ -1,63 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mechanical Keyboard Hobby</title>
+    <title>Bài tập về nhà của tôi</title>
+    <!-- Đảm bảo tệp CSS được liên kết chính xác -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+    <!-- Liên kết "Chuyển đến Nội dung chính" đang hoạt động -->
+    <a href="#main" class="skip-link">Chuyển đến Nội dung chính</a>
+
     <header>
-        <h1>Passion for Mechanical Keyboards & Custom Switches</h1>
-        <p>Welcome to my webpage sharing my mechanical keyboard hobby.</p>
+        <nav>
+            <!-- Hình ảnh trong điều hướng -->
+            <img src="logo.jpg" alt="Logo trang web">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="page2.html">Trang 2</a></li>
+                <li><a href="page3.html">Trang 3</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <section>
-            <h2>Favorite Keyboards and Switches</h2>
-            <p>Here are some of my favorite keyboards and switches that provide a great typing feel and sound:</p>
+    <!-- Thêm id="main" vào thẻ main để neo liên kết hoạt động -->
+    <main id="main">
+        <h1>Nội dung chính của trang</h1>
 
-            <!-- A list with at least three items -->
-            <ul>
-                <li><strong>Aula F75:</strong> A compact 75% layout with a gasket mount design that delivers a smooth,
-                    deep sound.</li>
-                <li><strong>Lingbao K75:</strong> Another excellent choice in its segment, featuring a solid and sturdy
-                    build.</li>
-                <li><strong>Leobog Graywood:</strong> A linear switch with a signature thocky sound and a smooth,
-                    scratch-free keystroke.</li>
-            </ul>
-        </section>
+        <h2>Phần Lưới (Grid Class)</h2>
+        <div class="grid">
+            <!-- Các phần tử bên trong lưới -->
+            <div>
+                <img src="grid-img1.jpg" alt="Ảnh lưới 1">
+                <p>Mô tả ảnh 1</p>
+            </div>
+            <div>
+                <img src="grid-img2.jpg" alt="Ảnh lưới 2">
+                <p>Mô tả ảnh 2</p>
+            </div>
+            <div>
+                <img src="grid-img3.jpg" alt="Ảnh lưới 3">
+                <p>Mô tả ảnh 3</p>
+            </div>
+            <div>
+                <img src="grid-img4.jpg" alt="Ảnh lưới 4">
+                <p>Mô tả ảnh 4</p>
+            </div>
+        </div>
 
-        <section>
-            <h2>Image Gallery</h2>
-            <p>Some illustrative images of mechanical keyboards and components:</p>
-
-            <!-- At least three images with alt attributes for WAVE validation -->
-            <img src="https://placehold.co/400x200/2a2a2a/ffffff?text=Aula+F75+Keyboard"
-                alt="Aula F75 mechanical keyboard with light keycaps">
-            <br><br>
-            <img src="https://placehold.co/400x200/2a2a2a/ffffff?text=Lingbao+K75+Keyboard"
-                alt="Top-down view of the Lingbao K75 mechanical keyboard">
-            <br><br>
-            <img src="https://placehold.co/400x200/2a2a2a/ffffff?text=Leobog+Graywood+Switch"
-                alt="Close-up of a Leobog Graywood linear switch">
-        </section>
-
-        <section>
-            <h2>Learn More</h2>
-            <!-- At least one link to an external source -->
-            <p>If you want to dive deeper into the world of mechanical keyboards, visit the <a
-                    href="https://www.reddit.com/r/MechanicalKeyboards/" target="_blank"
-                    rel="noopener noreferrer">Mechanical Keyboards Community on Reddit</a>.</p>
-        </section>
+        <h2>Phần Linh hoạt (Flex Class)</h2>
+        <div class="flex">
+            <!-- Hình ảnh trong phần flex sẽ không bị ảnh hưởng bởi CSS của grid -->
+            <img src="flex-img1.jpg" alt="Ảnh flex 1">
+            <img src="flex-img2.jpg" alt="Ảnh flex 2">
+            <img src="flex-img3.jpg" alt="Ảnh flex 3">
+        </div>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Personal Webpage.</p>
-    </footer>
-
 </body>
-
 </html>
